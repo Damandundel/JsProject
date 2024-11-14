@@ -1,11 +1,37 @@
 
+header{
+    background-color: aquamarine;
+    color: black;
+    padding: 1%;
+
+}
+
+
+
+
+
+
 body{
     background-image: url(background\ image\ project.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    color: aqua;
     font-family: 'Courier New', Courier, monospace
     
+    
+}
+section{
+    color: aliceblue;
+    text-align: left;
+    
+}
 
+footer{
+
+    margin-top: 75%;
+}
+h2{
+    color: white;
 }
