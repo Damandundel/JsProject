@@ -4,13 +4,20 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #f8f9fa;
+    background-image: url(forest-with-foggy-sky-word-rainforest-top_780838-1585.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
   }
   
   .container {
     max-width: 800px;
     margin: 0 auto;
-    background: #fff;
+    background-color: rgba(255,255,255,0.9);
+    transition: background-color 0.3s ease, color 0.3s ease;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -44,7 +51,7 @@ body {
   
   .accordion-button {
     width: 100%;
-    background: #fff;
+    background-color: rgba(255,255,255,0.9);  
     color: #333;
     text-align: left;
     padding: 10px 15px;
@@ -64,7 +71,7 @@ body {
   }
   
   .accordion-button:hover {
-    background: #f0f0f0;
+    background-color: rgba(255,255,255,0.8);
   }
   
   .accordion-content {
@@ -74,4 +81,5 @@ body {
     font-size: 14px;
     color: #555;
   }
+  
   
