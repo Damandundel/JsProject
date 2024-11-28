@@ -1,37 +1,93 @@
-
-header{
-    background-color: aquamarine;
-    color: black;
-    padding: 1%;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-
-
-
-
-
-body{
+body {
     background-image: url(background\ image\ project.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    color: aqua;
-    font-family: 'Courier New', Courier, monospace
-    
-    
+    color: rgba(255, 255, 255, 0.8); 
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
 }
-section{
-    color: aliceblue;
-    text-align: left;
-    
+header {
+    background-color: #000; 
+    color: #fff; 
+    height: 100%;
+    width: 100%;
+    padding: 10px 0; 
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5); 
+    position: relative; 
 }
 
-footer{
-
-    margin-top: 75%;
+header h1 {
+    font-size: 2em; 
+    margin-bottom: 10px;
 }
-h2{
-    color: white;
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 1); 
+    color: #000; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: #000;
+}
+
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.section p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+footer {
+    margin-top: auto;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.7); 
+    font-size: 0.9em;
+    text-align: center;
 }
