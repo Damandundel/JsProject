@@ -8,6 +8,7 @@ header {
   justify-content: space-between; 
   border-bottom: 2px solid rgba(255, 255, 255, 0.5); 
   position: relative; 
+  font-family: Arial, sans-serif;
 }
 
 header h1 {
@@ -57,7 +58,7 @@ body {
   background-position: center;
   background-size: cover;
   color: aqua;
-  font-family: 'Courier New', Courier, monospace;
+  
 }
 
 .contact-container {
